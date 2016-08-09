@@ -1,0 +1,83 @@
+
+HTML, BODY 
+{
+	height:  100%;
+	margin:  0px;
+	padding: 0px;
+}
+
+IFRAME
+{
+	height :  90%;
+	width  :  50%;
+	display: block-inline;
+	float  : right;
+	margin-right: 10px;
+	border: 1px solid grey;
+}
+#title
+{
+	height:  7%;
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 150%;
+}
+
+#commandsDiv
+{
+	display: block-inline;
+	width  : 45%;
+	height : 90%;
+	border : 1px solid grey;
+	float  : left;
+	padding-left: 7px;
+	margin-left:  7px;
+}
+
+.description
+{
+	margin-top: 15px;
+	font-family: Helvetica, sans-serif;
+    white-space: nowrap;
+    float: left;
+    clear: both;
+}
+
+.commandDiv
+{
+	background:#F0F0F0; 
+	border:black dashed 1px; 
+	padding:6px; 
+	color:#707070;
+	margin-right: 10px;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: smaller;
+	font-weight: bold;
+	float: left;
+	clear: left;
+	width: 90%;
+    display: table-cell;
+	vertical-align: middle;
+}
+
+.commandInput
+{
+	margin-top: 3px;
+	background:#F0F0F0; 
+	border: 0px; 
+	color:#707070;
+	width: 90%;
+}
+
+.button
+{
+	cursor: pointer;
+	height: 24px; 
+	width:  24px;
+	float:  right;
+}
+
+*:focus {
+    outline: 0;
+}
